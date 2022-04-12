@@ -13,7 +13,8 @@ interface ButtonProps {
   iconColor?: string,
   title?: string,
   titleColor?: string,
-  btnColor?: string
+  btnColor?: string,
+  onPress: () => void
 }
 
 export function ButtonWithIcon({
@@ -22,10 +23,11 @@ export function ButtonWithIcon({
   iconSize = 25,
   title = 'Default',
   titleColor = '#000000',
-  btnColor = '#DDDDDD'
+  btnColor = '#DDDDDD',
+  onPress
 }: ButtonProps) {
   return (
-    <Container color={btnColor} >
+    <Container color={btnColor} onPress={() => onPress()} >
       <Text>
         <Ionicons name={iconName} size={iconSize} color={iconColor} />
       </Text>

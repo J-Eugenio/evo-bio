@@ -17,6 +17,8 @@ import { Reference } from './src/pages/Reference';
 import { Thanks } from './src/pages/Thanks';
 import { Quiz } from './src/pages/Quiz';
 import { Home } from './src/pages/Home';
+import { EvoBio } from './src/pages/Content/EvoBio';
+
 
 import Colors from './src/global/styles/theme';
 
@@ -43,17 +45,32 @@ export type RootStackParamList = {
   'Referências': undefined;
   Thanks: undefined;
   Home: undefined;
+  HomeStack: undefined;
   SettingsScreen: undefined;
   Quiz: undefined;
+  EvoBio: undefined;
 };
 
 //Screen props with pages
 export type ScreenProp = NativeStackNavigationProp<RootStackParamList>;
 
 //Stack and Tab Navigations
-const Stack = createNativeStackNavigator<RootStackParamList>();
+const HomeStack = createNativeStackNavigator<RootStackParamList>();
 const Tab = createBottomTabNavigator<RootStackParamList>();
 
+function HomeStackScreen() {
+  return (
+    <HomeStack.Navigator
+     screenOptions={{
+       headerShown: false,
+       headerTransparent: false
+     }}
+    >
+     <HomeStack.Screen name="HomeStack" component={Home} />
+     <HomeStack.Screen name="EvoBio" component={EvoBio} />
+    </HomeStack.Navigator>
+   );
+ }
 
 export default function App() {
 
@@ -141,11 +158,11 @@ export default function App() {
               },
             })}
           >
-            <Tab.Screen name="Home" component={Home}/>
+            <Tab.Screen name="Home" component={HomeStackScreen}/>
             <Tab.Screen name="Sobre" component={About} />
             <Tab.Screen name="Autores" component={Authors} />
             <Tab.Screen name="Referências" component={Reference} />
-            <Tab.Screen name="Quiz" component={Thanks} />
+            <Tab.Screen name="Quiz" component={Quiz} />
           </Tab.Navigator>
         </NavigationContainer>
       </ThemeProvider>

@@ -30,7 +30,7 @@ export const TitleGroup = styled.View`
   padding: 5px;
   border-radius: 10px;
   background-color: rgba(0,0,0,0.6);
-  bottom: 10px;
+  bottom: 40px;
 `;
 
 export const Title = styled.Text`

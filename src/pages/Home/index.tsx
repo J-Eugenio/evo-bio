@@ -3,6 +3,12 @@ import { useNavigation } from '@react-navigation/native';
 import { useTheme } from 'styled-components'
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
+import _05 from '../../assets/content/05.jpg';
+import _06 from '../../assets/content/06.jpg';
+import _11 from '../../assets/content/11.jpg';
+import _21 from '../../assets/content/21.jpg';
+import _25 from '../../assets/content/25.jpg';
+
 import { ScreenProp } from '../../../App';
 import { ContentButton } from '../../components/ContentButton';
 
@@ -49,8 +55,36 @@ export function Home(){
         <MainScroll
           horizontal
         >
-          <ContentButton image={i} title="Teste" sub="sub-test"/>
-          <ContentButton image={i} title="Teste" sub="sub-test"/>
+          <ContentButton 
+            image={_06} 
+            title="Evolução biológica" 
+            sub="O processo de modificação e adaptação das espécies."
+            onPress={() => navigation.navigate("EvoBio")}
+          />
+          <ContentButton 
+            image={_11} 
+            title="Ideias evolucionistas" 
+            sub="Cada espécie de ser vivo atual surgiu por transformações sucessivas de uma forma primitiva."
+            onPress={() => console.log("AAAA")}
+          />
+          <ContentButton 
+            image={_25} 
+            title="Evidências da evolução biológica" 
+            sub="Evidências da evolução biologica."
+            onPress={() => console.log("AAAA")}
+          />
+          <ContentButton 
+            image={_05} 
+            title="Teoria moderna da evolução" 
+            sub="A evolução podia ser explicada pelas mutações e recombinações gênicas, orientadas pela seleção natural."
+            onPress={() => console.log("AAAA")}
+          />
+          <ContentButton 
+            image={_21} 
+            title="QUIZ – Evolução biológica" 
+            sub="Deriva gênica."
+            onPress={() => console.log("AAAA")}
+          />
         </MainScroll>
 
         <ContentTileGroup>
@@ -64,6 +98,7 @@ export function Home(){
             iconColor='#FFF'
             title='Dev. do APP'
             titleColor='#FFF'
+            onPress={() => console.log("AAA")}
           />
           <ButtonWithIcon
             btnColor={theme.colors.primary_light}
@@ -71,6 +106,7 @@ export function Home(){
             title='Agradecimentos'
             titleColor='#FFF'
             iconName='heart-circle-outline'
+            onPress={() => console.log("AAA")}
 
           />
           <ButtonWithIcon
@@ -79,6 +115,7 @@ export function Home(){
             title=''
             titleColor='#FFF'
             iconName='share-social-outline'
+            onPress={() => console.log("AAA")}
           />
         </ExtraGroup>
       </Main>

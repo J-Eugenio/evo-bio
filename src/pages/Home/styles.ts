@@ -50,7 +50,7 @@ export const Header = styled.View`
 export const TitlePrimary = styled.Text`
   color: ${({ theme }) => theme.colors.text_white};
   font-family: ${({ theme }) => theme.fonts.medium};
-  font-size: ${RFValue(25)}px;
+  font-size: ${RFValue(22)}px;
 `;
 
 export const SubTitle = styled.Text`

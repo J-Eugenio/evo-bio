@@ -1,6 +1,4 @@
 import React from 'react';
-import { Text } from 'react-native';
-
 import {
   Container,
   ImageBackground,
@@ -15,15 +13,17 @@ import _1 from '../../assets/content/01.jpg';
 interface ContentProps {
   image: any,
   title: string,
-  sub: string
+  sub: string,
+  onPress: () => void;
 }
 export function ContentButton({
   image,
   title,
-  sub
+  sub,
+  onPress
 }: ContentProps){
   return (
-    <Container>
+    <Container onPress={() => onPress()}>
      <ImageBackground source={image || _1} resizeMode="cover" style={{ width: '100%', height: '100%' }}>
         <Main>
           <TitleGroup>

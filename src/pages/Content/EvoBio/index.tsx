@@ -4,7 +4,10 @@ import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import { useNavigation } from '@react-navigation/native';
 import { ScreenProp } from '../../../../App';
 
-import _01 from '../../../assets/content/01.jpg';
+import _16 from '../../../assets/content/16.jpg';
+import _17 from '../../../assets/content/17.jpg';
+
+import { content } from '../../../content';
 
 import {
   Container,
@@ -12,7 +15,8 @@ import {
   TitlePrimary,
   SubTitle,
   Main,
-  Image
+  Image,
+  MainText
 } from './styles';
 
 
@@ -34,7 +38,12 @@ export function EvoBio(){
       </Header>
 
       <Main>
-        <Image source={_01}/>
+        <Image source={_16} resizeMode="contain"/>
+        <Image source={_17} resizeMode="contain"/>
+
+        <MainText>
+          {content._01}
+        </MainText>
       </Main>
     </Container>
   )

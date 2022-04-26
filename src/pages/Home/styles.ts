@@ -14,7 +14,7 @@ export const Main = styled.View`
 `;
 
 export const MainScroll = styled.ScrollView`
-  max-height: 370px;
+  max-height: ${RFValue(370)}px;
 `;
 
 export const Separator = styled.View`

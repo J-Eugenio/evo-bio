@@ -18,7 +18,7 @@ import { Thanks } from './src/pages/Thanks';
 import { Quiz } from './src/pages/Quiz';
 import { Home } from './src/pages/Home';
 import { EvoBio } from './src/pages/Content/EvoBio';
-
+import { IdeasEvo } from './src/pages/Content/IdeasEvo';
 
 import Colors from './src/global/styles/theme';
 
@@ -49,6 +49,7 @@ export type RootStackParamList = {
   SettingsScreen: undefined;
   Quiz: undefined;
   EvoBio: undefined;
+  IdeasEvo: undefined;
 };
 
 //Screen props with pages
@@ -68,6 +69,7 @@ function HomeStackScreen() {
     >
      <HomeStack.Screen name="HomeStack" component={Home} />
      <HomeStack.Screen name="EvoBio" component={EvoBio} />
+     <HomeStack.Screen name="IdeasEvo" component={IdeasEvo} />
     </HomeStack.Navigator>
    );
  }

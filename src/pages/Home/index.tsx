@@ -65,7 +65,7 @@ export function Home(){
             image={_11} 
             title="Ideias evolucionistas" 
             sub="Cada espécie de ser vivo atual surgiu por transformações sucessivas de uma forma primitiva."
-            onPress={() => console.log("AAAA")}
+            onPress={() => navigation.navigate("IdeasEvo")}
           />
           <ContentButton 
             image={_25} 

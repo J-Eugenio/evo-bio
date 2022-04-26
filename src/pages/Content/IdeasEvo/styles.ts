@@ -28,10 +28,11 @@ export const SubTitle = styled.Text`
 `;
 
 export const Image = styled.Image`
+  display: flex;
   width: ${ Platform.OS === "android" ? RFValue(380) : RFValue(300)}px;
-  height: ${ Platform.OS === "android" ? RFValue(380) : RFValue(300)}px;
+  height: ${RFValue(250)}px;
   margin: 5px 0 5px 0;
-  border-radius: 3px;
+  border-radius: 5px;
 `;
 
 export const Main = styled.View`
@@ -44,4 +45,16 @@ export const MainText = styled.Text`
   color: ${({ theme }) => theme.colors.text_grey2};
   font-family: ${({ theme }) => theme.fonts.regular};
   text-align: justify;
+  margin-top: 10px;
+`;
+
+export const MainTitle = styled.Text`
+  color: ${({ theme }) => theme.colors.text_grey2};
+  font-family: ${({ theme }) => theme.fonts.regular};
+  font-size: ${RFValue(24)}px;
+  font-weight: bold;
+`;
+
+export const B = styled.Text`
+  font-weight: bold;
 `;

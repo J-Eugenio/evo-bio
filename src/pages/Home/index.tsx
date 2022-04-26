@@ -71,13 +71,13 @@ export function Home(){
             image={_25} 
             title="Evidências da evolução biológica" 
             sub="Evidências da evolução biologica."
-            onPress={() => console.log("AAAA")}
+            onPress={() => navigation.navigate("EviEvoBio")}
           />
           <ContentButton 
             image={_05} 
             title="Teoria moderna da evolução" 
             sub="A evolução podia ser explicada pelas mutações e recombinações gênicas, orientadas pela seleção natural."
-            onPress={() => console.log("AAAA")}
+            onPress={() => navigation.navigate("TeoModEvo")}
           />
           <ContentButton 
             image={_21} 

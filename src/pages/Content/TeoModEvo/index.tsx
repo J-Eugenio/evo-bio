@@ -37,6 +37,17 @@ import _02 from '../../../assets/content/02.png';
 import _01 from '../../../assets/content/01.jpg';
 import _83 from '../../../assets/content/83.jpg';
 
+import _80 from '../../../assets/content/80.png';
+import _81 from '../../../assets/content/81.jpg';
+
+import _78 from '../../../assets/content/78.png';
+
+import _75 from '../../../assets/content/75.jpg';
+
+import _79 from '../../../assets/content/79.jpg';
+
+
+
 import { content } from '../../../content';
 
 import {
@@ -148,6 +159,29 @@ export function TeoModEvo(){
           {content._04.deriva_genica.content_4}
         </MainText>
         <Image source={_01} style={{ backgroundColor: '#DDD'}} resizeMode="contain"/>
+
+        <MainTitle>• Exemplo de efeito fundador na espécie humana.</MainTitle>
+        <Image source={_80} style={{ backgroundColor: '#DDD'}} resizeMode="contain"/>
+        <Image source={_81} resizeMode="contain"/>
+        <MainText>
+          {content._04.fundador.content_1}
+        </MainText>
+        <Image source={_78} resizeMode="contain"/>
+        <MainText>
+          {content._04.fundador.content_2}
+        </MainText>
+
+        <MainTitle>• Exemplo de Efeito Gargalo.</MainTitle>
+        <Image source={_75} resizeMode="contain"/>
+        <MainText>
+          {content._04.gargalo}
+        </MainText>
+
+        <MainTitle>• A Deriva Genética e a Seleção Natural.</MainTitle>
+        <Image source={_79} resizeMode="contain" style={{ height: 550}}/>
+        <MainText>
+          {content._04.genetica_natural}
+        </MainText>
 
       </Main>
     </Container>

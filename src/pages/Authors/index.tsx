@@ -1,8 +1,16 @@
 import React from 'react';
-import { Text } from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome5';
 import { useNavigation } from '@react-navigation/native';
 import {
-  Container
+  Container,
+  Title,
+  Main,
+  CardAuthor,
+  IconContainer,
+  InfoContainer,
+  Author,
+  Social,
+  SocialValue,
 } from './styles';
 import { ScreenProp } from '../../../App';
 
@@ -12,7 +20,49 @@ export function Authors(){
 
   return (
     <Container>
-      <Text>Authors</Text>
+       <Main>
+
+        <Title>Autores</Title>
+
+        <CardAuthor>
+          <IconContainer>
+            <Icon 
+              name="user-md"
+              size={80}
+              color="#FFF"
+            />
+          </IconContainer>
+
+          <InfoContainer>
+            <Author>Francisco Alves de Andrade</Author>
+            <Social
+              onPress={() => {}}
+            >
+              <SocialValue>Mestrando – PROFBIO UERN</SocialValue>
+            </Social>
+          </InfoContainer>
+        </CardAuthor>
+
+        <CardAuthor>
+          <IconContainer>
+            <Icon 
+              name="user-md"
+              size={80}
+              color="#FFF"
+            />
+          </IconContainer>
+
+          <InfoContainer>
+            <Author>Prof(a) Dra. Maria da Conceição Vieira de Almeida Menezes - UERN</Author>
+            <Social
+              onPress={() => {}}
+            >
+              <SocialValue>Orientadora</SocialValue>
+            </Social>
+          </InfoContainer>
+        </CardAuthor>
+
+      </Main>
     </Container>
   )
 }

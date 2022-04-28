@@ -152,7 +152,39 @@ export const content = {
       Nos dois casos, uma nova população é formada por poucos membros da população original. Porém, esses poucos fundadores não contém a variação genética total da população original. Assim, a nova população apresenta uma variação genética reduzida.
       `,
       
-    }
+    },
+    fundador: {
+      content_1:`
+      Temos como exemplo as comunidades religiosas da Alemanha que migraram para os Estados Unidos. Em virtude de suas crenças, os membros das comunidades mantiveram-se isolados da população norte-americana.
+      
+      A partir da análise da frequência alélica dos membros da comunidade, observaram-se diferenças significativas em relação à população norte-americana.
+      
+      Conclui-se que essa população não representava uma amostra representativa da população original alemã e suas frequências alélicas mostraram-se diferenciadas da população americana.
+      
+      Efeito Gargalo
+      `,
+      content_2:`
+      O efeito gargalo é uma redução drástica no tamanho da população. Ocorre quando o tamanho da população é reduzido por pelo menos uma geração. Em consequência do efeito gargalo, a variação genética é reduzida.
+      
+      O efeito gargalo pode ser causado por desastres naturais, predação, caça humana, perda de habitats, redução de migração, entre outros. Esses eventos podem aleatoriamente eliminar muitos membros da população, independentemente de seus genótipos.
+      
+      Os sobreviventes iniciam uma nova população, na maioria das vezes, na mesma área ocupada pela população original. A diferença principal entre o efeito gargalo e efeito fundador é a existência de migrantes no efeito fundador.
+      `,
+    },
+    gargalo: `
+    Um exemplo de efeito gargalo é o caso dos elefantes marinhos do norte. A caça intensa reduziu a população para algumas dezenas de indivíduos.
+    
+    Sua população chegou a cerca de 20 indivíduos ao final do século 19. Entretanto, suas populações já ultrapassaram 30.000 desde então.
+    
+    Porém, os seus genes ainda carregam muito menos variação genética comparados aos elefantes marinhos do sul, que sofreram menos com as caças predatórias.
+    `,
+    genetica_natural: `
+    A deriva genética, seleção natural, mutação e migração são mecanismos básicos da evolução.
+    
+    A deriva genética altera a frequência alélica de uma população, de modo aleatório. Ela não trabalha para produzir adaptações.
+    
+    No processo de seleção natural, os indivíduos mais adaptados a determinada condição ecológica são selecionados. Ela não atua de modo aleatório.
+    `
 
   }
 }

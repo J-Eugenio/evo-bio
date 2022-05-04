@@ -44,6 +44,7 @@ import {
   MainTitle,
   B
 } from './styles';
+import { GoBackBtn } from '../../../components/GoBackBtn';
 
 
 export function EviEvoBio(){
@@ -51,6 +52,7 @@ export function EviEvoBio(){
 
   return (
     <Container>
+      <GoBackBtn />
       <Header>
         <TitlePrimary>
           EVIDÊNCIAS DA EVOLUÇÃO BIOLÓGICA

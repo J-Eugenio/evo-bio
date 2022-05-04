@@ -14,7 +14,7 @@ export const Main = styled.View`
 `;
 
 export const MainScroll = styled.ScrollView`
-  max-height: ${RFValue(370)}px;
+  max-height: ${RFValue(380)}px;
 `;
 
 export const Separator = styled.View`
@@ -50,7 +50,8 @@ export const Header = styled.View`
 export const TitlePrimary = styled.Text`
   color: ${({ theme }) => theme.colors.text_white};
   font-family: ${({ theme }) => theme.fonts.medium};
-  font-size: ${RFValue(22)}px;
+  font-size: ${RFValue(20)}px;
+  text-align: center;
 `;
 
 export const SubTitle = styled.Text`

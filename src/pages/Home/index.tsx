@@ -25,6 +25,7 @@ import {
   SubTitle,
 } from './styles';
 import { ButtonWithIcon } from '../../components/ButtonWithIcon';
+import { Linking } from 'react-native';
 
 const i = { uri: 'https://reactjs.org/logo-og.png' };
 
@@ -98,7 +99,7 @@ export function Home(){
             iconColor='#FFF'
             title='Dev. do APP'
             titleColor='#FFF'
-            onPress={() => console.log("AAA")}
+            onPress={() => navigation.navigate("AboutDev")}
           />
           <ButtonWithIcon
             btnColor={theme.colors.primary_light}
@@ -106,7 +107,7 @@ export function Home(){
             title='Agradecimentos'
             titleColor='#FFF'
             iconName='heart-circle-outline'
-            onPress={() => console.log("AAA")}
+            onPress={() => navigation.navigate("Thanks")}
 
           />
           <ButtonWithIcon
@@ -115,7 +116,7 @@ export function Home(){
             title=''
             titleColor='#FFF'
             iconName='share-social-outline'
-            onPress={() => console.log("AAA")}
+            onPress={() => Linking.openURL("http://play.google.com/store/apps/details?id=com.JeugS.evobio")}
           />
         </ExtraGroup>
       </Main>

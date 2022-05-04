@@ -25,6 +25,7 @@ import {
   MainTitle,
   B
 } from './styles';
+import { GoBackBtn } from '../../../components/GoBackBtn';
 
 
 export function IdeasEvo(){
@@ -32,6 +33,7 @@ export function IdeasEvo(){
 
   return (
     <Container>
+      <GoBackBtn />
       <Header>
         <TitlePrimary>
           IDEIAS EVOLUCIONISTAS

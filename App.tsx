@@ -76,6 +76,8 @@ function HomeStackScreen() {
      <HomeStack.Screen name="IdeasEvo" component={IdeasEvo} />
      <HomeStack.Screen name="EviEvoBio" component={EviEvoBio} />
      <HomeStack.Screen name="TeoModEvo" component={TeoModEvo} />
+     <HomeStack.Screen name="Thanks" component={Thanks} />
+     <HomeStack.Screen name="AboutDev" component={AboutDev}/>
     </HomeStack.Navigator>
    );
  }

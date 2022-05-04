@@ -13,6 +13,7 @@ import {
   SocialValue,
 } from './styles';
 import { ScreenProp } from '../../../App';
+import { GoBackBtn } from '../../components/GoBackBtn';
 
 
 export function Authors(){
@@ -20,6 +21,7 @@ export function Authors(){
 
   return (
     <Container>
+      <GoBackBtn />
        <Main>
 
         <Title>Autores</Title>

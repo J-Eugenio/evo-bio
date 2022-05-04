@@ -60,6 +60,7 @@ import {
   MainText,
   MainTitle
 } from './styles';
+import { GoBackBtn } from '../../../components/GoBackBtn';
 
 
 export function TeoModEvo(){
@@ -67,6 +68,7 @@ export function TeoModEvo(){
 
   return (
     <Container>
+      <GoBackBtn />
       <Header>
         <TitlePrimary>
           TEORIA MODERNA DA EVOLUÇÃO  

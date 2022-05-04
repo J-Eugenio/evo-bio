@@ -18,6 +18,7 @@ import {
   Image,
   MainText
 } from './styles';
+import { GoBackBtn } from '../../../components/GoBackBtn';
 
 
 export function EvoBio(){
@@ -25,6 +26,7 @@ export function EvoBio(){
 
   return (
     <Container>
+      <GoBackBtn />
       <Header>
         <TitlePrimary>
           EVOLUÇÃO BIOLÓGICA

@@ -13,13 +13,13 @@ export const Header = styled.View`
   display: flex;
   align-items: center;
   margin-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 50px;
 `;
 
 export const TitlePrimary = styled.Text`
   color: ${({ theme }) => theme.colors.text_white};
   font-family: ${({ theme }) => theme.fonts.medium};
-  font-size: ${RFValue(22)}px;
+  font-size: ${RFValue(20)}px;
 `;
 
 export const SubTitle = styled.Text`

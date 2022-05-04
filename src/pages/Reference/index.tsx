@@ -1,5 +1,4 @@
 import React from 'react';
-import Icon from 'react-native-vector-icons/FontAwesome5';
 import { useNavigation } from '@react-navigation/native';
 import {
   Container,
@@ -9,7 +8,6 @@ import {
   RefBold,
   RefButton,
   RefButtonText,
-  GoBackButton,
 } from './styles';
 import { ScreenProp } from '../../../App';
 import { Linking } from 'react-native';

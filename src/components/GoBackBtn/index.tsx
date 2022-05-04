@@ -12,7 +12,7 @@ export function GoBackBtn(){
 
   return (
     <Container
-      onPress={() => navigation.navigate("Home")}
+      onPress={() => navigation.navigate("HomeStack")}
       style={{ width: 25}}
     >
       <Icon 

@@ -13,7 +13,7 @@ export const Header = styled.View`
   display: flex;
   align-items: center;
   margin-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 40px;
 `;
 
 export const TitlePrimary = styled.Text`

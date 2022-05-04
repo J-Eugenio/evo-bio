@@ -12,7 +12,7 @@ export const Container = styled.TouchableOpacity.attrs({
   width: 300px;
   margin-right: 10px;
   overflow: hidden;
-  border: 1px solid ${({ theme }) => theme.colors.primary};;
+  border: 1px solid ${({ theme }) => theme.colors.primary};
 `;
 
 export const ImageBackground = styled.ImageBackground`

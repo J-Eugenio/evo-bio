@@ -84,7 +84,7 @@ export function Home(){
             image={_21} 
             title="QUIZ – Evolução biológica" 
             sub="Deriva gênica."
-            onPress={() => console.log("AAAA")}
+            onPress={() => navigation.navigate("Quiz")}
           />
         </MainScroll>
 

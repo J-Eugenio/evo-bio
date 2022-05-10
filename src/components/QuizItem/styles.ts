@@ -5,10 +5,6 @@ interface CharContainerProps {
 }
 export const Container = styled.View`
   display: flex;
-  border-top-width: 2px;
-  border-top-color: #FFF;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
 
   border-bottom-width: 2px;
   border-bottom-color: #FFF;

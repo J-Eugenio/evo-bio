@@ -1,5 +1,6 @@
 import React from 'react';
 import { QuizProps } from '../../utils/quiz';
+import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
 import { 
   Container,
@@ -21,20 +22,29 @@ const char = {
 
 interface QuizItemProps extends QuizProps {
   question?: number;
-  isSelected?: boolean;
+  isSelected?: number;
+  onPress: (data: any) => void;
 }
 
 interface Props {
   data?: QuizItemProps
 }
+
+
 export function QuizItem(data: Props){
   
   return(
     <Container>
-      <Title>{'1. '+data.data?.answer}</Title>
+      <Title>{`${data.data?.question || '??'}. `+data.data?.answer}</Title>
       {data.data?.response.map(r => (
-        <Option key={r.id}>
-          <CharContainer isSelected={false}>
+        <Option key={r.id} onPress={() => {
+          data.data?.onPress({
+            question_id: data.data.id,
+            option_id: r.id,
+            isCorrect: r.isCorrect
+          })
+        }}>
+          <CharContainer isSelected={data.data?.isSelected === r.id}>
             <Char>
               {
                 //@ts-ignore
@@ -43,6 +53,7 @@ export function QuizItem(data: Props){
             </Char>
           </CharContainer>
           <OptionTitle>{r.response}</OptionTitle>
+          {data.data?.isSelected === r.id && (<FontAwesome5 name='seedling' size={20} color='#00ff37d1' />)}
         </Option>
       ))}
     </Container>

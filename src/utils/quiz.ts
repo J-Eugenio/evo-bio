@@ -268,9 +268,9 @@ export const Quiz: Array<QuizProps> = [
   {
     id: 9,
     answer:`(UNIFESP) Leia os trechos seguintes, extraídos de um texto sobre a cor de pele na espécie humana. A pele de povos que habitaram certas áreas durante milênios adaptou-se para permitira produção de vitamina D.
-    À medida que os seres humanos começaram a se movimentar pelo Velho Mundo há cerca de 100 mil anos, sua pele foi se adaptando às condições ambientais das diferentes regiões. A cor da pele das populações nativas da África foi a que teve mais tempo para se adaptar porque os primeiros seres humanos surgiram ali.(Scientific American Brasil, vol.6, novembro de 2002).
+À medida que os seres humanos começaram a se movimentar pelo Velho Mundo há cerca de 100 mil anos, sua pele foi se adaptando às condições ambientais das diferentes regiões. A cor da pele das populações nativas da África foi a que teve mais tempo para se adaptar porque os primeiros seres humanos surgiram ali.(Scientific American Brasil, vol.6, novembro de 2002).
 
-    Nesses dois trechos, encontram-se subjacentes ideias
+Nesses dois trechos, encontram-se subjacentes ideias
     `,
     response: [
       {
@@ -303,47 +303,40 @@ export const Quiz: Array<QuizProps> = [
   {
     id: 10,
     answer: `(UFES) Os pesquisadores Robert Simmons e Lue Scheepers questionaram a visão tradicional de como a girafa desenvolveu o pescoço comprido. Observações feitas na 
-    África demonstraram que as girafas que atingem alturas de 4 a 5 metros, geralmente se alimentam de folhas a 3 metros do solo. O pescoço comprido é usado como uma arma nos combates corpo a corpo pelos machos na disputa por fêmeas. As fêmeas também preferem acasalar com machos de pescoço grande. Esses pesquisadores argumentam que o pescoço da girafa ficou grande devido à seleção sexual; machos com pescoços mais compridos deixavam mais descendentes do que machos com pescoços mais curtos.
-    (Simmons and Scheepers, 1996. American Naturalist Vol. 148: pp. 771-786. Adaptado)
-    Sobre a visão tradicional de como a girafa desenvolve um pescoço comprido, é 
-    CORRETO afirmar que:`,
+África demonstraram que as girafas que atingem alturas de 4 a 5 metros, geralmente se alimentam de folhas a 3 metros do solo. O pescoço comprido é usado como uma arma nos combates corpo a corpo pelos machos na disputa por fêmeas. As fêmeas também preferem acasalar com machos de pescoço grande. Esses pesquisadores argumentam que o pescoço da girafa ficou grande devido à seleção sexual; machos com pescoços mais compridos deixavam mais descendentes do que machos com pescoços mais curtos.
+(Simmons and Scheepers, 1996. American Naturalist Vol. 148: pp. 771-786. Adaptado)
+Sobre a visão tradicional de como a girafa desenvolve um pescoço comprido, é 
+CORRETO afirmar que:`,
     response:[
       {
         id: 1,
         response: `na visão tradicional baseada em Darwin, a girafa adquire o pescoço comprido pela 
-        lei de uso e desuso. As girafas que esticam seus pescoços geram uma prole que já nasce 
-        com pescoço mais comprido e, cumulativamente, através das gerações, o pescoço, em 
-        média, aumenta de tamanho.`,
+lei de uso e desuso. As girafas que esticam seus pescoços geram uma prole que já nasce 
+com pescoço mais comprido e, cumulativamente, através das gerações, o pescoço, em 
+média, aumenta de tamanho.`,
         isCorrect:false
       },
       {
         id: 2,
         response: `na visão tradicional baseada em Lamarck, a girafa adquire o pescoço comprido com 
-        a sobrevivência diferencial de girafas. Aquelas com pescoço comprido conseguem se 
-        alimentar de folhas inacessíveis às outras, e deixam, portanto, mais descendentes.`,
+a sobrevivência diferencial de girafas. Aquelas com pescoço comprido conseguem se 
+alimentar de folhas inacessíveis às outras, e deixam, portanto, mais descendentes.`,
         isCorrect: false
       },
       {
         id: 3,
-        response: `na visão tradicional baseada em Lamarck, a girafa adquire o pescoço comprido pela 
-        lei do uso e desuso. Aquelas com pescoço comprido conseguem se alimentar de folhas 
-        inacessíveis às outras, e deixam, portanto, mais descendentes.`,
+        response: `na visão tradicional baseada em Lamarck, a girafa adquire o pescoço comprido pelalei do uso e desuso. Aquelas com pescoço comprido conseguem se alimentar de folhas inacessíveis às outras, e deixam, portanto, mais descendentes.`,
         isCorrect: false
       },
       {
         id: 4,
-        response: `na visão tradicional baseada em Darwin, a girafa adquire o pescoço comprido com a 
-        sobrevivência diferencial de girafas. Aquelas com pescoço comprido conseguem se 
-        alimentar de folhas inacessíveis às outras, e deixam, portanto, mais descendentes.
+        response: `na visão tradicional baseada em Darwin, a girafa adquire o pescoço comprido com a sobrevivência diferencial de girafas. Aquelas com pescoço comprido conseguem se alimentar de folhas inacessíveis às outras, e deixam, portanto, mais descendentes.
         `,
         isCorrect: true
       },
       {
         id: 5,
-        response: `na visão tradicional baseada em Darwin, a girafa adquire o pescoço comprido com a 
-        sobrevivência diferencial de girafas. As girafas que esticam seus pescoços geram uma 
-        prole que já nasce com pescoço mais comprido e, cumulativamente, através das 
-        gerações, o pescoço, em média, aumenta de tamanho.`,
+        response: `na visão tradicional baseada em Darwin, a girafa adquire o pescoço comprido com a sobrevivência diferencial de girafas. As girafas que esticam seus pescoços geram uma prole que já nasce com pescoço mais comprido e, cumulativamente, através das gerações, o pescoço, em média, aumenta de tamanho.`,
         isCorrect: false
       }
     ]
@@ -351,7 +344,7 @@ export const Quiz: Array<QuizProps> = [
   {
     id: 11,
     answer: `A mutação, a migração, a deriva genética e a seleção natural têm efeitos diferentes na variação genética dentro das populações e entre as populações. Considerando populações diferentes, assinale a alternativa que apresenta o fator que tem MAIOR 
-    CHANCE DE DIMINUIR a variação genética entre populações.
+CHANCE DE DIMINUIR a variação genética entre populações.
     `,
     response: [
       {
@@ -379,8 +372,9 @@ export const Quiz: Array<QuizProps> = [
   {
     id: 12,
     answer: `Analise as seguintes informações.
-    Um fazendeiro usou diversas vezes um mesmo inseticida para combater as pragas de sua lavoura. Após algum tempo, observou que o remédio não possuía mais eficácia no combate aos insetos (pragas).
-    Baseando-se nessas informações e em seus conhecimentos, é CORRETO afirmar que`,
+Um fazendeiro usou diversas vezes um mesmo inseticida para combater as pragas de sua lavoura. Após algum tempo, observou que o remédio não possuía mais eficácia no combate aos insetos (pragas).
+Baseando-se nessas informações e em seus conhecimentos, é CORRETO afirmar que
+`,
     response: [
       {
         id: 1,
@@ -407,10 +401,10 @@ export const Quiz: Array<QuizProps> = [
   {
     id: 13,
     answer: `Considerando diferentes hipóteses evolucionistas, analise as afirmações abaixo e as respectivas justificativas.
-    1) O GAFANHOTO É VERDE PORQUE VIVE NA GRAMA! Seguindo esse raciocínio, por viver na grama, o gafanhoto passa a produzir pigmentos verdes que o ajudam a se confundir com o ambiente, passando essa característica para os descendentes.
-    2) O GAFANHOTO VIVE NA GRAMA PORQUE É VERDE! Segundo esse raciocínio, por ser verde, o gafanhoto fica protegido dos predadores. Conseqüentemente, pode gerar descendentes, aos quais transfere suas características.
+1) O GAFANHOTO É VERDE PORQUE VIVE NA GRAMA! Seguindo esse raciocínio, por viver na grama, o gafanhoto passa a produzir pigmentos verdes que o ajudam a se confundir com o ambiente, passando essa característica para os descendentes.
+2) O GAFANHOTO VIVE NA GRAMA PORQUE É VERDE! Segundo esse raciocínio, por ser verde, o gafanhoto fica protegido dos predadores. Conseqüentemente, pode gerar descendentes, aos quais transfere suas características.
     
-    As afirmações 1 e 2 podem ser atribuídas, respectivamente, a:
+As afirmações 1 e 2 podem ser atribuídas, respectivamente, a:
     `,
     response: [
       {
@@ -506,15 +500,14 @@ export const Quiz: Array<QuizProps> = [
   },
   {
     id: 16,
-    answer: `
-    Dentre os fatores evolutivos, a deriva genética é um dos mais interessantes por suas características.
-    Analise as proposições sobre este fator evolutivo.
-    I. A deriva genética aumenta as frequências de mutações em uma população.
-    II. Para ocorrer a deriva genética é necessário o mesmo número de machos e fêmeas em uma população.
-    III. A deriva genética ocorre em populações pequenas.
-    IV. A deriva genética aumenta a variabilidade gênica de uma população.
+    answer: `Dentre os fatores evolutivos, a deriva genética é um dos mais interessantes por suas características.
+Analise as proposições sobre este fator evolutivo.
+I. A deriva genética aumenta as frequências de mutações em uma população.
+II. Para ocorrer a deriva genética é necessário o mesmo número de machos e fêmeas em uma população.
+III. A deriva genética ocorre em populações pequenas.
+IV. A deriva genética aumenta a variabilidade gênica de uma população.
 
-    Assinale a alternativa correta.`,
+Assinale a alternativa correta.`,
     response: [
       {
         id: 1,
@@ -535,6 +528,131 @@ export const Quiz: Array<QuizProps> = [
         id: 4,
         response: `Somente as afirmativas II e III são verdadeiras.`,
         isCorrect: false
+      }
+    ]
+  },
+  {
+    id: 17,
+    answer: `Um pequeno grupo de esquilos se separa do resto da população devido a uma grande inundação. Estes esquilos, confinados a esta nova ilha, começam uma nova população.
+    Este é um exemplo de qual dos seguintes?
+    `,
+    response: [
+      {
+        id: 1,
+        response: `Deriva genética.`,
+        isCorrect: false
+      },
+      {
+        id: 2,
+        response: `Especiação simpátrica.`,
+        isCorrect: false
+      },
+      {
+        id: 3,
+        response: `Efeito gargalo.`,
+        isCorrect: false
+      },
+      {
+        id: 4,
+        response: `Efeito fundador`,
+        isCorrect: true
+      }
+    ]
+  },
+  {
+    id: 18,
+    answer: `Os principais fatores evolutivos que afetam o equilíbrio gênico de uma população mendeliana são: mutação, seleção natural, migração e deriva gênica. Os fatores que contribuem para o aumento da variabilidade genética de uma população são:
+    `,
+    response: [
+      {
+        id: 1,
+        response: `Mutação e migração.`,
+        isCorrect: true
+      },
+      {
+        id: 2,
+        response: `Migração e deriva genética.`,
+        isCorrect: false
+      },
+      {
+        id: 3,
+        response: `Deriva genética e seleção natural.`,
+        isCorrect: false
+      },
+      {
+        id: 4,
+        response: `Seleção natural e mutação.`,
+        isCorrect: false
+      }
+    ]
+  },
+  {
+    id: 19,
+    answer: `Considere as afirmativas a seguir.
+I) As mutações, sendo fonte de variabilidade genética, ocorrem continuamente com o propósito de adaptar os indivíduos ao ambiente.
+II) A migração permite que se estabeleça fluxo gênico entre populações diferentes, diminuindo as diferenças genéticas entre elas e reduzindo a chance de especiação.
+III) A seleção natural não altera a frequência dos genes.
+IV) O estabelecimento de uma nova população, a partir de poucos indivíduos que emigram da população original, é um exemplo de princípio ou efeito do fundador.
+    
+Assinale a alternativa que contém todas as afirmativas CORRETAS.
+    `,
+    response: [
+      {
+        id: 1,
+        response: `I e II`,
+        isCorrect: false
+      },
+      {
+        id: 2,
+        response: `I e III`,
+        isCorrect: false
+      },
+      {
+        id: 3,
+        response: `I e IV`,
+        isCorrect: false
+      },
+      {
+        id: 4,
+        response: `II e III`,
+        isCorrect: false
+      },
+      {
+        id: 5,
+        response: `II e IV`,
+        isCorrect: true
+      }
+    ]
+  },
+  {
+    id: 20,
+    answer: `Em algumas regiões brasileiras, existem exemplares de Euphorbia heterophylla, uma planta daninha bastante prejudicial à lavoura de soja e que pode ser resistente a herbicidas. Se, após alguns anos, não existir mais o fluxo de genes entre as plantas suscetíveis e resistentes a herbicidas dessa espécie, então ocorrerá:
+    `,
+    response: [
+      {
+        id: 1,
+        response: `seleção natural.`,
+        isCorrect: false
+      },
+      {
+        id: 2,
+        response: `irradiação adaptativa.`,
+        isCorrect: false
+      },
+      {
+        id: 3,
+        response: `isolamento geográfico.`,
+        isCorrect: false
+      },
+      {
+        id: 4,
+        response: `recombinação gênica.`,
+        isCorrect:false
+      },
+      {
+        id: 5,
+        response: `isolamento reprodutivo.`,
+        isCorrect: true
       }
     ]
   }

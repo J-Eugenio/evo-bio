@@ -21,6 +21,7 @@ import { EvoBio } from './src/pages/Content/EvoBio';
 import { IdeasEvo } from './src/pages/Content/IdeasEvo';
 import { EviEvoBio } from './src/pages/Content/EviEvoBio';
 import { TeoModEvo } from './src/pages/Content/TeoModEvo';
+import { Suggestion } from './src/pages/Suggestion';
 
 import Colors from './src/global/styles/theme';
 
@@ -54,6 +55,7 @@ export type RootStackParamList = {
   IdeasEvo: undefined;
   EviEvoBio: undefined;
   TeoModEvo: undefined;
+  Suggestion: undefined;
 };
 
 //Screen props with pages
@@ -78,6 +80,7 @@ function HomeStackScreen() {
      <HomeStack.Screen name="TeoModEvo" component={TeoModEvo} />
      <HomeStack.Screen name="Thanks" component={Thanks} />
      <HomeStack.Screen name="AboutDev" component={AboutDev}/>
+     <HomeStack.Screen name="Suggestion" component={Suggestion}/>
     </HomeStack.Navigator>
    );
  }

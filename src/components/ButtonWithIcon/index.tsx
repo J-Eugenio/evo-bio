@@ -14,6 +14,7 @@ interface ButtonProps {
   title?: string,
   titleColor?: string,
   btnColor?: string,
+  max?: boolean,
   onPress: () => void
 }
 
@@ -24,10 +25,11 @@ export function ButtonWithIcon({
   title = 'Default',
   titleColor = '#000000',
   btnColor = '#DDDDDD',
+  max,
   onPress
 }: ButtonProps) {
   return (
-    <Container color={btnColor} onPress={() => onPress()} >
+    <Container color={btnColor} onPress={() => onPress()} max={max}>
       <Text>
         <Ionicons name={iconName} size={iconSize} color={iconColor} />
       </Text>

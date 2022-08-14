@@ -1,6 +1,7 @@
 import React from 'react';
 import { QuizProps } from '../../utils/quiz';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
+import question08 from '../../assets/quiz/question08.png';
 
 import { 
   Container,
@@ -8,7 +9,8 @@ import {
   Option,
   CharContainer,
   Char,
-  OptionTitle
+  OptionTitle,
+  QuestionLogo
 } from './styles';
 
 const char = {
@@ -36,6 +38,9 @@ export function QuizItem(data: Props){
   return(
     <Container>
       <Title>{`${data.data?.question || '??'}. `+data.data?.answer}</Title>
+      {data.data?.id == 8 && (
+          <QuestionLogo source={question08} resizeMode="contain"/>
+        )}
       {data.data?.response.map(r => (
         <Option key={r.id} onPress={() => {
           data.data?.onPress({

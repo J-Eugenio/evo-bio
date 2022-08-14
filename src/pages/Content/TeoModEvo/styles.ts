@@ -29,16 +29,16 @@ export const SubTitle = styled.Text`
 
 export const Image = styled.Image`
   display: flex;
-  width: ${ Platform.OS === "android" ? RFValue(380) : RFValue(300)}px;
-  height: ${RFValue(300)}px;
+  width: 100%;
+  max-height: ${RFValue(350)}px;
   margin: 5px 0 5px 0;
   border-radius: 5px;
 `;
 
 export const Main = styled.View`
   display: flex;
-  flex: 1;
   padding: 30px 0 150px 0;
+  max-height: ${RFValue(15500)}px;
 `;
 
 export const MainText = styled.Text`

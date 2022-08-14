@@ -9,14 +9,13 @@ import {
   FinishContainer,
   ModalContainer
 } from './styles';
-import { ScreenProp } from '../../../App';
 
 import { QuizItem } from '../../components/QuizItem';
 import { Functions } from '../../utils/functions';
 import QuizLogo from '../../assets/quiz/quiz.png';
 
 import { Quiz as QuizContent, QuizProps } from '../../utils/quiz';
-import { ScrollView, Modal, ActivityIndicator } from 'react-native';
+import { Modal, ActivityIndicator } from 'react-native';
 import { ScorePage } from '../../components/ScorePage';
 
 
@@ -30,9 +29,7 @@ interface QuestionProps {
 
 export function Quiz(){
   const { generateRandomNumbers } = new Functions;
-  const [quizQuestions, setQuizQuestions] = useState<Array<Number>>([])
   const [Quizz,setQuizz] = useState<QuizProps[]>([])
-  const navigation = useNavigation<ScreenProp>();
 
   const [question01, setQuestion01] = useState<QuestionProps>()
   const [question02, setQuestion02] = useState<QuestionProps>()

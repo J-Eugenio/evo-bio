@@ -29,7 +29,7 @@ export function Authors(){
         <CardAuthor>
           <IconContainer>
             <Icon 
-              name="user-md"
+              name="user-alt"
               size={80}
               color="#FFF"
             />
@@ -48,7 +48,7 @@ export function Authors(){
         <CardAuthor>
           <IconContainer>
             <Icon 
-              name="user-md"
+              name="user-alt"
               size={80}
               color="#FFF"
             />

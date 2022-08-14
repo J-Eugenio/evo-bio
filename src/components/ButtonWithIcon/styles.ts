@@ -1,7 +1,8 @@
-import styled from 'styled-components/native';
+import styled, { css } from 'styled-components/native';
 
 interface btnProps {
   color?: string;
+  max?: boolean;
 }
 
 interface btnTextProps {
@@ -18,6 +19,7 @@ export const Container = styled.TouchableOpacity<btnProps>`
   justify-content: center;
   border: 1px solid ${({ theme }) => theme.colors.text_grey2};
   margin-top: 5px;
+  ${({ max }) => max && css`width: 100%`};
 `;
 
 export const ButtonTitle = styled.Text<btnTextProps>`

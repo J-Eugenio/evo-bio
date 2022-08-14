@@ -14,7 +14,7 @@ export const Main = styled.View`
 `;
 
 export const MainScroll = styled.ScrollView`
-  max-height: ${RFValue(380)}px;
+  max-height: ${RFValue(330)}px;
 `;
 
 export const Separator = styled.View`
@@ -41,6 +41,14 @@ export const ExtraGroup = styled.View`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+`;
+
+export const Group = styled.View`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const Header = styled.View`

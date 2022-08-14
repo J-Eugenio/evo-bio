@@ -8,6 +8,7 @@ import _06 from '../../assets/content/06.jpg';
 import _11 from '../../assets/content/11.jpg';
 import _21 from '../../assets/content/21.jpg';
 import _25 from '../../assets/content/25.jpg';
+import _100 from '../../assets/content/100.jpeg';
 
 import { ScreenProp } from '../../../App';
 import { ContentButton } from '../../components/ContentButton';
@@ -23,6 +24,7 @@ import {
   Header,
   TitlePrimary,
   SubTitle,
+  Group
 } from './styles';
 import { ButtonWithIcon } from '../../components/ButtonWithIcon';
 import { Linking } from 'react-native';
@@ -57,7 +59,7 @@ export function Home(){
           horizontal
         >
           <ContentButton 
-            image={_06} 
+            image={_100} 
             title="Evolução biológica" 
             sub="O processo de modificação e adaptação das espécies."
             onPress={() => navigation.navigate("EvoBio")}
@@ -104,21 +106,32 @@ export function Home(){
           <ButtonWithIcon
             btnColor={theme.colors.primary_light}
             iconColor='#FFF'
+            title=''
+            titleColor='#FFF'
+            iconName='share-social-outline'
+            onPress={() => Linking.openURL("http://play.google.com/store/apps/details?id=com.JeugS.evobio")}
+          />
+                    <ButtonWithIcon
+            btnColor={theme.colors.primary_light}
+            iconColor='#FFF'
             title='Agradecimentos'
             titleColor='#FFF'
             iconName='heart-circle-outline'
             onPress={() => navigation.navigate("Thanks")}
 
           />
+        </ExtraGroup>
+        <Group>
           <ButtonWithIcon
             btnColor={theme.colors.primary_light}
             iconColor='#FFF'
-            title=''
+            title='Sugestão para o professor'
             titleColor='#FFF'
-            iconName='share-social-outline'
-            onPress={() => Linking.openURL("http://play.google.com/store/apps/details?id=com.JeugS.evobio")}
+            iconName='ribbon-outline'
+            onPress={() => navigation.navigate("Suggestion")}
+            max
           />
-        </ExtraGroup>
+        </Group>
       </Main>
     </Container>
   )

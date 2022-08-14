@@ -28,8 +28,8 @@ export const SubTitle = styled.Text`
 `;
 
 export const Image = styled.Image`
-  width: ${ Platform.OS === "android" ? RFValue(380) : RFValue(300)}px;
-  height: ${ Platform.OS === "android" ? RFValue(380) : RFValue(300)}px;
+  width: 100%;
+  max-height: ${RFValue(250)}px;
   margin: 5px 0 5px 0;
   border-radius: 3px;
 `;

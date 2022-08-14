@@ -96,7 +96,7 @@ export const content = {
     selecao_natural: `
     Todos os organismos, sejam eles plantas, animais ou bactérias, ―lutam‖ para sobreviver a cada instante de sua vida. Os mais aptos a enfrentar os desafios, em cada contexto particular, têm maior chance de sobreviver.
     
-    A ―luta pela sobrevivência‖, metáfora utilizada por Darwin para a seleção natural, inspira-se no fato de que, entre os animais, alguns são presas e têm de evitar ser devorados; outros são predadores e têm de capturar animais que lhes sirvam de alimento, ou morrerão de fome. Entretanto, há formas menos evidentes de lutar pela vida: por exemplo, em certas espécies, os machos disputam entre si a atenção das fêmeas e o direito de cruzar com elas, o que lhes permite perpetuar suas características. Plantas competem umas com as outras pela umidade do solo, por nutrientes e até mesmo pela luz solar.
+       A ―luta pela sobrevivência‖, metáfora utilizada por Darwin para a seleção natural, inspira-se no fato de que, entre os animais, alguns são presas e têm de evitar ser devorados; outros são predadores e têm de capturar animais que lhes sirvam de alimento, ou morrerão de fome. Entretanto, há formas menos evidentes de lutar pela vida: por exemplo, em certas espécies, os machos disputam entre si a atenção das fêmeas e o direito de cruzar com elas, o que lhes permite perpetuar suas características. Plantas competem umas com as outras pela umidade do solo, por nutrientes e até mesmo pela luz solar.
     
     De uma forma ou de outra, em última análise, a seleção natural implica a reprodução diferencial dos indivíduos de uma população, em que os mais bem adaptados têm maior chance de deixar descendentes.
     
@@ -113,7 +113,7 @@ export const content = {
     mutacao_e_selecao: `
     A mutação, processo pelo qual um alelo se transforma em outro, pode alterar a frequência gênica de uma população. Por exemplo, se a taxa de mutação de um alelo A para a for maior que a taxa de mutação inversa (de a para A), ocorrerá aumento na frequência do alelo a e diminuição na frequência de A.
     
-    A seleção natural é o principal fator responsável pela alteração das frequências gênicas de uma população. Ao atuar na eliminação ou na preservação de determinados fenótipos, gerados pelos respectivos genótipos, a seleção altera a composição gênica das populações.
+  A seleção natural é o principal fator responsável pela alteração das frequências gênicas de uma população. Ao atuar na eliminação ou na preservação de determinados fenótipos, gerados pelos respectivos genótipos, a seleção altera a composição gênica das populações.
     `,
     migracao: `
     Outro fator que pode afetar a composição gênica de uma população é a migração. Diferentes populações de uma mesma espécie nem sempre estão isoladas, o que possibilita a migração dos indivíduos. Ao se incorporar a uma população, esses indivíduos denominam-se imigrantes; ao sair dela, chamam-se emigrantes.
@@ -124,23 +124,23 @@ export const content = {
       content_1: `
       A deriva genética corresponde a um processo de mudança ao acaso das frequências alélicas de uma população.
       
-      A deriva genética é um processo estocástico, sendo impossível prever a direção da mudança. Isso quer dizer que as mudanças ocorrem ao acaso e não por adaptação ao ambiente.
+  A deriva genética é um processo estocástico, sendo impossível prever a direção da mudança. Isso quer dizer que as mudanças ocorrem ao acaso e não por adaptação ao ambiente.
       
-      Os incêndios, desmatamentos, inundações e outros tipos de alterações no ambiente podem reduzir o tamanho de uma população.
+  Os incêndios, desmatamentos, inundações e outros tipos de alterações no ambiente podem reduzir o tamanho de uma população.
       
-      Isso pode ocorrer a ponto dos indivíduos sobreviventes não representarem uma amostra genética da população primitiva. Essas alterações drásticas no tamanho de uma população podem modificar a frequência de um alelo.
+  Isso pode ocorrer a ponto dos indivíduos sobreviventes não representarem uma amostra genética da população primitiva. Essas alterações drásticas no tamanho de uma população podem modificar a frequência de um alelo.
       
       Quais as consequências da deriva genética?
       `,
       content_2: `
       A deriva genética remove a variação genética. Por ser tratar de mudanças ao acaso, os alelos fixados ou perdidos pela deriva genética podem ser neutros, deletérios ou vantajosos.
       
-      As populações pequenas são mais sensíveis a esse processo, ocorrendo de forma mais rápida. Em populações maiores são necessárias muitas gerações para eliminar ou fixar um alelo.
+   As populações pequenas são mais sensíveis a esse processo, ocorrendo de forma mais rápida. Em populações maiores são necessárias muitas gerações para eliminar ou fixar um alelo.
       
       Como ocorre a Deriva Genética?
       `,
       content_3: `
-      A deriva genética pode ocorrer de duas maneiras e em diferentes momentos da história evolutiva de uma população.
+    A deriva genética pode ocorrer de duas maneiras e em diferentes momentos da história evolutiva de uma população.
       
       As duas formas são o efeito fundador e o efeito gargalo:
       
@@ -149,7 +149,7 @@ export const content = {
       content_4: `
       Esse caso de deriva genética ocorre quando uma nova população é fundada por poucos indivíduos. Isso acontece porque a população primitiva foi reduzida drasticamente ou porque alguns indivíduos migraram para outra área.
 
-      Nos dois casos, uma nova população é formada por poucos membros da população original. Porém, esses poucos fundadores não contém a variação genética total da população original. Assim, a nova população apresenta uma variação genética reduzida.
+    Nos dois casos, uma nova população é formada por poucos membros da população original. Porém, esses poucos fundadores não contém a variação genética total da população original. Assim, a nova população apresenta uma variação genética reduzida.
       `,
       
     },
@@ -166,9 +166,9 @@ export const content = {
       content_2:`
       O efeito gargalo é uma redução drástica no tamanho da população. Ocorre quando o tamanho da população é reduzido por pelo menos uma geração. Em consequência do efeito gargalo, a variação genética é reduzida.
       
-      O efeito gargalo pode ser causado por desastres naturais, predação, caça humana, perda de habitats, redução de migração, entre outros. Esses eventos podem aleatoriamente eliminar muitos membros da população, independentemente de seus genótipos.
+   O efeito gargalo pode ser causado por desastres naturais, predação, caça humana, perda de habitats, redução de migração, entre outros. Esses eventos podem aleatoriamente eliminar muitos membros da população, independentemente de seus genótipos.
       
-      Os sobreviventes iniciam uma nova população, na maioria das vezes, na mesma área ocupada pela população original. A diferença principal entre o efeito gargalo e efeito fundador é a existência de migrantes no efeito fundador.
+        Os sobreviventes iniciam uma nova população, na maioria das vezes, na mesma área ocupada pela população original. A diferença principal entre o efeito gargalo e efeito fundador é a existência de migrantes no efeito fundador.
       `,
     },
     gargalo: `
@@ -176,7 +176,7 @@ export const content = {
     
     Sua população chegou a cerca de 20 indivíduos ao final do século 19. Entretanto, suas populações já ultrapassaram 30.000 desde então.
     
-    Porém, os seus genes ainda carregam muito menos variação genética comparados aos elefantes marinhos do sul, que sofreram menos com as caças predatórias.
+  Porém, os seus genes ainda carregam muito menos variação genética comparados aos elefantes marinhos do sul, que sofreram menos com as caças predatórias.
     `,
     genetica_natural: `
     A deriva genética, seleção natural, mutação e migração são mecanismos básicos da evolução.

@@ -8,7 +8,7 @@ export const Container = styled.TouchableOpacity.attrs({
   flex: 1;
   background-color: ${({ theme }) => theme.colors.white};
   border-radius: ${RFValue(20)}px;
-  height: ${RFValue(380)}px;
+  height: ${RFValue(330)}px;
   width: 300px;
   margin-right: 10px;
   overflow: hidden;

@@ -54,3 +54,10 @@ flex: 1;
   color: ${({ theme }) => theme.colors.text_white};
   margin-left: 10px;
 `;
+
+export const QuestionLogo = styled.Image`
+  display: flex;
+  flex: 1;
+  max-width: 100%;
+  margin-bottom: 10px;
+`;

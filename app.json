@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "evo-bio",
+    "name": "Evo Bio",
     "slug": "evo-bio",
-    "version": "1.0.0",
+    "version": "2.0.2",
     "orientation": "portrait",
-    "icon": "./assets/icon_app.png",
+    "icon": "./assets/icon_app3.png",
     "splash": {
-      "image": "./assets/splash2.png",
+      "image": "./assets/splash3.png",
       "resizeMode": "contain",
       "backgroundColor": "#302E3B"
     },
@@ -21,11 +21,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icon_app.png",
+        "foregroundImage": "./assets/icon_app3.png",
         "backgroundColor": "#302E3B"
       },
+      "permissions":[
+        "INTERNET",
+        "SYSTEM_ALERT_WINDOW",
+        "WAKE_LOCK",
+        "USE_FINGERPRINT",
+        "INSTALL_SHORTCUT",
+        "VIBRATE"
+      ],
       "package": "com.JeugS.evobio",
-      "versionCode": 1
+      "versionCode": 3
     },
     "web": {
       "favicon": "./assets/favicon.png"

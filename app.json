@@ -24,7 +24,7 @@
         "foregroundImage": "./assets/icon_app3.png",
         "backgroundColor": "#302E3B"
       },
-      "permissions":[
+      "permissions": [
         "INTERNET",
         "SYSTEM_ALERT_WINDOW",
         "WAKE_LOCK",
@@ -37,6 +37,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "27958fff-c6e7-4139-8965-e839dbb599ea"
+      }
     }
   }
 }

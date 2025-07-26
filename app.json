@@ -2,7 +2,7 @@
   "expo": {
     "name": "Evo Bio",
     "slug": "evo-bio",
-    "version": "2.0.2",
+    "version": "4.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon_app3.png",
     "splash": {
@@ -33,7 +33,7 @@
         "VIBRATE"
       ],
       "package": "com.JeugS.evobio",
-      "versionCode": 3
+      "versionCode": 4
     },
     "web": {
       "favicon": "./assets/favicon.png"

@@ -9,17 +9,17 @@ export const Container = styled.ScrollView`
   display: flex;
   flex: 1;
   background-color: ${({ theme }) => theme.colors.primary};
-  padding: ${RFValue(40)}px ${RFValue(20)}px ${RFValue(20)}px ${RFValue(20)}px; 
+  padding: ${RFValue(40)}px ${RFValue(20)}px ${RFValue(20)}px ${RFValue(20)}px;
 `;
 
 export const Space = styled.View`
-  height: ${RFValue(150)}px; 
+  height: ${RFValue(150)}px;
 `;
 
 export const Logo = styled.Image`
   display: flex;
-  height: ${RFValue(250)}px; 
-  width: ${RFValue(400)}px; 
+  height: ${RFValue(250)}px;
+  width: ${RFValue(400)}px;
   align-items: center;
   justify-content: center;
 `;
@@ -31,7 +31,7 @@ export const FinishBtn = styled.TouchableOpacity<FinishProps>`
 
   margin-top:5px;
   background-color: ${({ enabled }) =>  enabled ? `#2EA60A` : `#AAA`};
-  height: ${RFValue(50)}px; 
+  height: ${RFValue(50)}px;
   border: 1px solid rgba(255,255,255, 0.2);
   border-radius: 10px;
   align-items: center;

@@ -19,8 +19,8 @@ export const ScoreMainContainer = styled.ImageBackground`
   display: flex;
   flex: 1;
   align-items: center;
-  height: 70px;
-  width: 100%;
+  height: 100%;
+  width: 110%;
   border-radius: 10px;
   padding: 20px;
 `;
